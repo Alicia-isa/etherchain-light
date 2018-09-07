@@ -4,7 +4,7 @@ var net = require('net');
 var config = function () {
 
   this.logFormat = "combined";
-  this.provider = new web3.providers.HttpProvider("http://10.0.1.6:8545");
+  this.provider = new web3.providers.HttpProvider("http://10.0.1.5:8545");
 
   //this.bootstrapUrl = "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css";
   this.bootstrapUrl = "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css";
